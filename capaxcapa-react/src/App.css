@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.font-face-ananias {
+  font-family: "Ananias";
+ }
+
+ .font-face-cerebri-sans-book {
+  font-family: "Cerebri-Sans-Book";
+ }

@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Ananias";
+  src: url("./fonts/Ananias/Ananias.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Cerebri-Sans-Book";
+  src: url("./fonts/Cerebri/Cerebri-Sans-Book.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
