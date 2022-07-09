@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import './assets/scss/app.scss';
+import React, { useEffect, useState } from 'react';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import Home from './pages/Home';
 
-function App() {
-  return (
+import Header from './components/Header';
+
+import Footer from './components/Footer';
+
+function App() { // esta función maneja el ciclo de vida de la aplicación.
+  return ( // lo que regresa no es HTML
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Header /> {/* header de navegación constante en todas las páginas */}
+        <Routes>
+          <Route path='' element={<Navigate to="/home" replace={true} />}/>    {/* la página default será Home, Navigate sirve para redireccionar */}
+          <Route path='/home' element={<Home/>} />
+        </Routes>
+        <footer><Footer /></footer>
+      </BrowserRouter>
     </div>
   );
 }
