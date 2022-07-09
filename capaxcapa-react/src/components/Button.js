@@ -11,7 +11,7 @@ function Button(props){
 
     return (
         <React.Fragment>
-            <button onClick={onUserClick} className={"shadow-lg rounded-0 btn btn-" + props.color}>
+            <button onClick={onUserClick} className={"rounded-0 btn btn-" + props.color}>
                 {props.children}
             </button>
         </React.Fragment>
