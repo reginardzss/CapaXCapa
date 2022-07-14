@@ -24,3 +24,32 @@
     display: inline-block;
     align-items: center;
 }
+
+.btn-slideshow {
+    width: 278;
+    height: 62;
+    border: 2px solid black;
+    border-radius: 23px;
+
+    font-family: "Cerebri-Sans-Book", sans-serif;
+    font-size: 22px;
+    color: white;
+}
+
+/* hacer el hover */
+
+.btn--yellow {
+    background-color: yellow;
+}
+
+.btn--green {
+    background-color: green;
+}
+
+.btn--red {
+    background-color: red;
+}
+
+.btn--orange {
+    background-color: orange;
+}
