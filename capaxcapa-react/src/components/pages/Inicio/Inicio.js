@@ -1,9 +1,10 @@
 //import "../App.css"
+import Galeria from './Galeria';
 
 function Inicio(){
     return (
         <div className="font-face-ananias">
-            <h1>Inicio</h1>
+            <Galeria />
         </div>
     )
 }
