@@ -21,6 +21,6 @@
     font-weight: 500;
     font-size: 60px;
     line-height: 73px;
-    display: flex;
+    display: inline-block;
     align-items: center;
 }
