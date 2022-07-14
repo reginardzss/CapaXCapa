@@ -13,7 +13,7 @@ function Header(){
         
     <div className="bg-primary d-flex" style={{height: '50px'}}>
         <div className="p-2 font-face-cerebri-sans-book">
-            <img src={require("../Images/Icons/Logo-CapaXCapa1.png")} height="40"/>
+            <img src={require("../media/Images/Icons/Logo-CapaXCapa1.png")} height="40"/>
             <Link to={"/inicio"}> <Button color={"primary"}> Inicio</Button> </Link>
             <Link to={"/nosotros"}> <Button color={"primary"}>Nosotros</Button> </Link>
             <Link to={"/modelos"}> <Button color={"primary"}>Modelos</Button> </Link>

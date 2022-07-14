@@ -4,8 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import './fonts/Ananias/Ananias.ttf';
-import './fonts/Cerebri/Cerebri-Sans-Book.ttf';
+import './media/fonts/Ananias/Ananias.ttf';
+import './media/fonts/Cerebri/Cerebri-Sans-Book.ttf';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

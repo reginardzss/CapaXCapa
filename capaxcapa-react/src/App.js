@@ -1,13 +1,14 @@
 import './assets/scss/app.scss';
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import Inicio from './pages/Inicio';
-import Nosotros from './pages/Nosotros';
-import Modelos from './pages/Modelos';
-import Contacto from './pages/Contacto';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
+
+import Inicio from './components/pages/Inicio/Inicio';
+import Nosotros from './components/pages/Nosotros/Nosotros';
+import Modelos from './components/pages/Modelos/Modelos';
+import Contacto from './components/pages/Contacto';
 
 function App() { // esta función maneja el ciclo de vida de la aplicación.
   return ( // lo que regresa no es HTML
