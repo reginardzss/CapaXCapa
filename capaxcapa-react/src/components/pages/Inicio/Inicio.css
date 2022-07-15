@@ -12,11 +12,13 @@
     height: 100%;
 }
 
+/* Contenedor para que se acomoden los divs de forma horizontal */
 .slideshow-grid {
     display:grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
+/* Contenedor para poner la frase encima de las imagenes del slideshow, tambien se usó para el logo */
 .slideshow-container {
     width: 1000px;
     padding-left: 60px;
@@ -30,6 +32,7 @@
     float: left;
 }
 
+/* Contenedor para juntar lo que conforma el logo, la imagen y el nombre de CxC */
 .slideshow-grid-logo {
     display:grid;
     grid-template-columns: repeat(1, 1fr);
@@ -38,18 +41,21 @@
     margin-left: 130px;
 }
 
+/* Clase para definir el tamaño de la imagen del logo */
 .slideshow-logo {
     height: 110px;
     width: auto;
 }
 
+/* Formato para las palabras del nombre de CxC */
 .slideshow-container span{
-    background: rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0); /* transparente */
     font-family: 'Ananias', sans-serif;
     font-size: 25px;
     margin-right: 13px;
 }
 
+/* Formato para el boton de las imagenes, se usa en BotonInicio.js */
 .btn-slideshow {
     width: 278px;
     height: 62px;
@@ -67,10 +73,15 @@
 
     cursor: pointer;
     align-items: center;
+    transition: 0.25s;
 }
 
 /* hacer el hover */
+.btn-slideshow:hover {
+    transform: translateY(-0.15em);
+}
 
+/* Formatos para poner el color del boton desde Galeria.js, asi cada boton tiene color diferente */
 .btn--yellow {
     background-color: rgb(239, 200, 100);
 }
@@ -87,6 +98,7 @@
     background-color: rgb(206, 153, 90);
 }
 
+/* Formatos para poner color al texto, se usa en el logo */
 .text-yellow {
     color: rgb(239, 200, 100);
 }

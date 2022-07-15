@@ -28,7 +28,7 @@ const Galeria = () => {
                                 <div style={{ 'height': `60px` }}></div>                                {/* Espacio en blanco */}
                                 <div>Si estas dispuesto a aprender, nadie te puede parar"</div>
                                 <div style={{ 'height': `30px` }}></div>                                {/* Espacio en blanco */}
-                                <Link to={"/nosotros"}> <Button buttonStyle="btn--yellow"> Nuestra Historia </Button> </Link>
+                                <Link to={"/nuestra-historia"}> <Button buttonStyle="btn--yellow"> Nuestra Historia </Button> </Link>
                             </div>
                             <div className="slideshow-container">                                       {/* Mitad derecha, logo y nombre CxC */}
                                 <div className="slideshow-grid-logo">                                   {/* Cuadro que encierra logo y nombre */}
@@ -55,7 +55,7 @@ const Galeria = () => {
                                 <div style={{ 'height': `60px` }}></div>                                {/* Espacio en blanco */}
                                 <div>Si estas dispuesto a aprender, nadie te puede parar"</div>
                                 <div style={{ 'height': `30px` }}></div>                                {/* Espacio en blanco */}
-                                <Link to={"/nosotros"}> <Button buttonStyle="btn--red"> ¿Quiénes somos? </Button> </Link>
+                                <Link to={"/quienes-somos"}> <Button buttonStyle="btn--red"> ¿Quiénes somos? </Button> </Link>
                             </div>
                             <div className="slideshow-container">                                       {/* Mitad derecha, logo y nombre CxC */}
                                 <div className="slideshow-grid-logo">                                   {/* Cuadro que encierra logo y nombre */}
@@ -82,7 +82,7 @@ const Galeria = () => {
                                 <div style={{ 'height': `60px` }}></div>                                {/* Espacio en blanco */}
                                 <div>Si estas dispuesto a aprender, nadie te puede parar"</div>
                                 <div style={{ 'height': `30px` }}></div>                                {/* Espacio en blanco */}
-                                <Link to={"/nosotros"}> <Button buttonStyle="btn--green"> ¿Qué hacemos? </Button> </Link>
+                                <Link to={"/que-hacemos"}> <Button buttonStyle="btn--green"> ¿Qué hacemos? </Button> </Link>
                             </div>
                             <div className="slideshow-container">                                       {/* Mitad derecha, logo y nombre CxC */}
                                 <div className="slideshow-grid-logo">                                   {/* Cuadro que encierra logo y nombre */}
@@ -109,7 +109,7 @@ const Galeria = () => {
                                 <div style={{ 'height': `60px` }}></div>                                {/* Espacio en blanco */}
                                 <div>Si estas dispuesto a aprender, nadie te puede parar"</div>
                                 <div style={{ 'height': `30px` }}></div>                                {/* Espacio en blanco */}
-                                <Link to={"/nosotros"}> <Button buttonStyle="btn--orange"> Impacto generado </Button> </Link>
+                                <Link to={"/impacto"}> <Button buttonStyle="btn--orange"> Impacto generado </Button> </Link>
                             </div>
                             <div className="slideshow-container">                                       {/* Mitad derecha, logo y nombre CxC */}
                                 <div className="slideshow-grid-logo">                                   {/* Cuadro que encierra logo y nombre */}
