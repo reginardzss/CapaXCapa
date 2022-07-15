@@ -12,6 +12,11 @@
     height: 100%;
 }
 
+.slideshow-grid {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .slideshow-container {
     width: 1000px;
     padding-left: 60px;
@@ -21,35 +26,79 @@
     font-weight: 500;
     font-size: 60px;
     line-height: 73px;
-    display: inline-block;
     align-items: center;
+    float: left;
+}
+
+.slideshow-grid-logo {
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    line-height: 30px;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+.slideshow-logo {
+    height: 110px;
+    width: auto;
+}
+
+.slideshow-container span{
+    background: rgba(255, 255, 255, 0);
+    font-family: 'Ananias', sans-serif;
+    font-size: 25px;
+    margin-right: 13px;
 }
 
 .btn-slideshow {
-    width: 278;
-    height: 62;
-    border: 2px solid black;
+    width: 278px;
+    height: 62px;
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 23px;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
 
+    display:inline-block;
     font-family: "Cerebri-Sans-Book", sans-serif;
-    font-size: 22px;
-    color: white;
+    font-size: 28px;
+    text-align: center;
+    line-height: 30px;
+    color: rgb(0, 0, 0);
+
+    cursor: pointer;
+    align-items: center;
 }
 
 /* hacer el hover */
 
 .btn--yellow {
-    background-color: yellow;
+    background-color: rgb(239, 200, 100);
 }
 
 .btn--green {
-    background-color: green;
+    background-color: rgb(148, 195, 90);
 }
 
 .btn--red {
-    background-color: red;
+    background-color: rgb(237, 140, 101);
 }
 
 .btn--orange {
-    background-color: orange;
+    background-color: rgb(206, 153, 90);
+}
+
+.text-yellow {
+    color: rgb(239, 200, 100);
+}
+
+.text-green {
+    color: rgb(148, 195, 90);
+}
+
+.text-red {
+    color: rgb(237, 140, 101);
+}
+
+.text-orange {
+    color: rgb(206, 153, 90);
 }

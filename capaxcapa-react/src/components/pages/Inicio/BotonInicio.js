@@ -20,7 +20,7 @@ const BotonInicio = ({
     : STYLES[0];
 
     return (
-        <button className={`btn ${checkButtonStyle}`} onClick={onClick} type={type}>
+        <button className={`btn-slideshow ${checkButtonStyle}`} onClick={onClick} type={type}>
             {children}
         </button>
     );
