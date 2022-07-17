@@ -1,3 +1,5 @@
+/* Estos dos son para colorear el texto de Capa X Capa */
+
 .Capa {
     color: #EFC864;
 }
@@ -6,10 +8,12 @@
     color: #94C35A;
 }
 
+/* Aplica para todos los textos que están en el Footer salvo el de Capa X Capa */
 .TextoFooter {
     color:#E4C76A;
 }
 
+/* Tamaño de letra para el texto del footer */
 h2 {
     font-size: 20.95px;
 }
