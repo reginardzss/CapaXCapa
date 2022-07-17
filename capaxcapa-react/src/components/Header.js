@@ -9,7 +9,7 @@ import {TbMail} from 'react-icons/tb' // Ícono de e-mail
 
 function Header(){
     return(
-        <div className="bg-primary d-flex" style={{height: '50px'}}>
+        <div className="bg-primary d-flex" style={{height: '60px'}}>
             {/* Botones que redireccionan a otras partes de la web. También se encuentra el logo de Capa X Capa. Están a la izquierda respectivamente. */}
             <div className="p-2 font-face-cerebri-sans-book">
                 <img src={require("../media/Images/Icons/Logo-CapaXCapa1.png")} height="40"/>

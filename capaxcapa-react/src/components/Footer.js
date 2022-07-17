@@ -13,7 +13,7 @@ import "./stylesCompartidas/Footer.css"
 
 function Footer(){
     return(
-        <div className="bg-danger d-flex" style={{height: '120px', alignItems: 'center'}}>
+        <div className="bg-danger d-flex" style={{height: '144px', alignItems: 'center'}}>
             {/* Logo de Capa X Capa */}
             <div className="p-2">
                 <img src={require("../media/Images/Icons/Logo-CapaXCapa1.png")} height="40"/>
