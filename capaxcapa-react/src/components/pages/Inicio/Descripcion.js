@@ -18,7 +18,7 @@ function Descripcion(){
             </div>
             <div className="linea"></div>
             <div className="slideshow-grid">
-                <div className="description-grid">
+                <div className="description-grid" style={{ 'marginLeft': '10%'}}>
                     <div className="description-parragraph">
                         <div className='circle'>
                         </div>
@@ -51,7 +51,7 @@ function Descripcion(){
                             , la 
                         </span>
                         <span>
-                            debido a que los métodos de enseñanza actuales no mantienen el interés de los estudiantes.
+                            toma de oportunidades y la salud mental.
                         </span>
                     </div>
                     <div className="description-parragraph">
@@ -69,7 +69,7 @@ function Descripcion(){
                     </div>
                 </div>
                 <div>
-                    <img src={Foto} className="slideshow-logo"/>
+                    <img src={Foto} className="imagen-descp"/>
                 </div>
             </div>
             <div className="linea"></div>
