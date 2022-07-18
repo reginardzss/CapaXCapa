@@ -1,0 +1,48 @@
+/* Rectangle 132 */
+
+p {
+    font-family: "Cerebri-Sans-Book", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 69px;
+    color: #0F223C;
+}
+
+b {
+    color: #D68B67
+}
+
+.nacimiento-title {
+    width: 1189.33px;
+    height: 212px;
+}
+
+.nacimiento-contenido1 {
+    box-sizing: border-box;
+
+    width: 1000px;
+    height: 192px;
+    left: 218.67px;
+    top: 1541.33px;
+
+    text-align: center;
+    
+}
+
+.logros-title {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 370.67px;
+    height: 130.67px;
+    left: 764px;
+    top: 3298.67px;
+
+    background: #BF985E;
+    border: 4px solid #0F223C;
+    border-radius: 54.6667px;
+}
+
+.logros-description {
+    align-items: center;
+}
