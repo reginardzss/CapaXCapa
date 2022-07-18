@@ -21,7 +21,7 @@ const Galeria = () => {
             <div className="each-slide-effect">                                                         {/* Slide 1 */}
                 <div style={{ 'backgroundImage': `url(${FotoSlide1})` }}>                               {/* Foto de la slide */}
                     <span>
-                        <div className="slideshow-grid">                                                {/* Mitad izquierda, texto y boton */}
+                        <div className="slideshow-grid">                                                {/* Dividir en dos partes lo que va en la foto */}
                             <div className="slideshow-container">                                       {/* Mitad izquierda, texto y boton */}
                                 <div style={{ 'height': `120px` }}></div>                               {/* Espacio en blanco */}
                                 <div>"Si no estas dispuesto a aprender, nadie te puede ayudar</div>
