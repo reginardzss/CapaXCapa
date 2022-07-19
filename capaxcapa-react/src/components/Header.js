@@ -11,7 +11,7 @@ function Header(){
     return(
         <div className="bg-primary d-flex" style={{height: '60px'}}>
             {/* Botones que redireccionan a otras partes de la web. También se encuentra el logo de Capa X Capa. Están a la izquierda respectivamente. */}
-            <div className="p-2 font-face-cerebri-sans-book">
+            <div className="p-2 font-face-cerebri-sans-pro">
                 <img src={require("../media/Images/Icons/Logo-CapaXCapa1.png")} height="40"/>
                 <Link to={"/inicio"}> <Button color={"primary"}> Inicio</Button> </Link>
                 <Link to={"/nosotros"}> <Button color={"primary"}>Nosotros</Button> </Link>
