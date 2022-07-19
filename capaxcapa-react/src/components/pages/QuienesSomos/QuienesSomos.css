@@ -1,0 +1,18 @@
+.texto-QuienesSomos {
+    font-size: 51px;
+    text-align: center;
+    color: #0F223C;
+}
+
+.intro-QuienesSomos {
+    margin-left: 89px;
+    margin-right: 89px;
+}
+
+.Valores {
+    padding: 10px 15px 10px 15px;
+}
+
+.Iconos-y-Valores {
+    position: relative;
+}

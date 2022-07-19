@@ -17,7 +17,7 @@ function ImagenFondo(props){
                         <div className="slideshow-grid">                                                {/* Mitad izquierda, texto y boton */}
                             <div className="slideshow-container">                                       {/* Mitad izquierda, texto y boton */}
                                 <div style={{ 'height': `554px` }}></div>                               {/* Espacio en blanco */}
-                                <div style={{color: '#E4C76A', fontSize: '158.668px', width: '1337px', height: '190px', alignItems: 'center', marginTop: '60px'}}>¿Quiénes somos?</div>
+                                <div style={{color: '#E4C76A', fontSize: '158.668px', width: '1337px', height: '190px', alignItems: 'center', marginTop: '60px'}}>{props.titulo}</div>
                             </div>
                             <div className="slideshow-container">                                       {/* Mitad derecha, logo y nombre CxC */}
                                 <div className="slideshow-grid-logo">                                   {/* Cuadro que encierra logo y nombre */}
