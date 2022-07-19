@@ -1,8 +1,9 @@
 import ImagenFondo from '../../ImagenFondo.js'
+import fondoSlide from '../../../media/Images/Inicio-slide-3.jpg'
 function QueHacemos(){
     return (
         <div>
-            <ImagenFondo/>
+            <ImagenFondo imagen={fondoSlide}/>
             <h1>¿Qué Hacemos?</h1>
         </div>
     )
