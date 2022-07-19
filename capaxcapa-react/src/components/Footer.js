@@ -23,7 +23,7 @@ function Footer(){
                 <h1> <span className="Capa">CAPA</span> <span className="X">X</span> <span className="Capa">CAPA</span> </h1>
             </div>
             {/* Resto de Textos del Footer */}
-            <div className="p-2 justify-content-end d-flex flex-fill font-face-cerebri-sans-book" style={{marginTop: '10px'}}>
+            <div className="p-2 justify-content-end d-flex flex-fill font-face-cerebri-sans-pro" style={{marginTop: '10px'}}>
                 {/* "Síguenos" */}
                 <div className="p-2 flex-fill justify-content-end" style={{marginLeft: '250px'}}>
                     <h2 className="TextoFooter">¡Síguenos!</h2>
