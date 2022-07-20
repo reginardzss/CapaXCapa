@@ -27,6 +27,4 @@ function Header(){
     )
 }
 
-// className="d-flex justify-content-end flex-fill"
-
 export default Header
