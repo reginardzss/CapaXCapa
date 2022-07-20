@@ -13,28 +13,26 @@ import "./stylesCompartidas/Footer.css"
 
 function Footer(){
     return(
-        <div className="bg-danger d-flex" style={{height: '144px', alignItems: 'center'}}>
-            {/* Logo de Capa X Capa */}
-            <div className="p-2">
-                <img src={require("../media/Images/Icons/Logo-CapaXCapa1.png")} height="40"/>
-            </div>
-            {/* Texto de Capa X Capa */}
-            <div className="font-face-ananias" style={{marginLeft: '15px'}}>
-                <h1> <span className="Capa">CAPA</span> <span className="X">X</span> <span className="Capa">CAPA</span> </h1>
+        <div className="bg-danger" style={{height: '144px', display: 'flex', alignItems: 'center', }}>
+            <div className="font-face-ananias" style={{marginLeft: '3.75vw'}}>
+                {/* Logo de Capa X Capa */}
+                <img src={require("../media/Images/Icons/Logo-CapaXCapa2.png")} style={{height: '4.027vw', width: '4.831vw', marginRight: '1.041vw'}}/>
+                {/* Texto de Capa X Capa */}
+                <h1 style={{marginLeft: '1.047vw', float: 'right'}}> <span className="Capa">CAPA</span> <span className="X">X</span> <span className="Capa">CAPA</span> </h1>
             </div>
             {/* Resto de Textos del Footer */}
-            <div className="p-2 justify-content-end d-flex flex-fill font-face-cerebri-sans-pro" style={{marginTop: '10px'}}>
+            <div className="font-face-cerebri-sans-pro" style={{marginLeft: '13.688vw', marginRight: '1.805vw'}}>
                 {/* "Síguenos" */}
-                <div className="p-2 flex-fill justify-content-end" style={{marginLeft: '250px'}}>
+                <div style={{float: 'left'}}>
                     <h2 className="TextoFooter">¡Síguenos!</h2>
-                    <Button onClick={event => window.location.href='https://www.instagram.com/capaxcapa_oficial/'}> <BsInstagram size="30px" color="E4C76A"/> </Button>
+                    <Button onClick={event => window.location.href='https://www.instagram.com/capaxcapa_oficial/'} style={{height: '2.404vw', width: '2.152vw'}}> <BsInstagram style={{height: '2.404vw', width: '2.152vw'}} color="E4C76A"/> </Button>
                 </div>
                 {/* El resto de textos se encuentran en los siguientes div */}
-                <div className="p-2 TextoFooter flex-fill" style={{textAlign: "left", marginLeft: '70px'}}>
+                <div className="TextoFooter" style={{textAlign: "left", marginLeft: '8.263vw', float: 'left'}}>
                     <h2>Derechos de autor</h2>
                     <h2>Términos Y Condiciones</h2>
                 </div>
-                <div className="p-2 TextoFooter" style={{textAlign: "left", marginRight: '50px'}}>
+                <div className="TextoFooter" style={{textAlign: "left", marginLeft: '3.402vw', float: 'right'}}>
                     <h2>Aviso de Privacidad</h2>
                 </div>
             </div>

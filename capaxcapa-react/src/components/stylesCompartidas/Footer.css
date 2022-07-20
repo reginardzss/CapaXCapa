@@ -14,6 +14,10 @@
 }
 
 /* Tamaño de letra para el texto del footer */
+h1 {
+    font-size: 2.81vw;
+}
+
 h2 {
-    font-size: 20.95px;
+    font-size: 1.454vw;
 }
