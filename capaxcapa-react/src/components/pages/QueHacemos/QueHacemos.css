@@ -1,0 +1,25 @@
+.flex-containerCajaProceso {
+    display: flex;
+    height: 24.97vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajaProceso{
+    height: 9.3vh;
+    width: 49.4vw;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #0F223C;
+    background-color: #D68B67;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-weight: bold;
+    font-size: 3.17vh;
+    color:#0F223C  
+}
+
+
+

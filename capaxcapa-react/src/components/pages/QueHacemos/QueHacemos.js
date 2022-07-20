@@ -1,11 +1,18 @@
 import ImagenFondo from '../../ImagenFondo.js'
 import fondoSlide from '../../../media/Images/Inicio-slide-3.jpg'
+import './QueHacemos.css'
 function QueHacemos(){
     return (
         <div>
             <ImagenFondo imagen={fondoSlide}/>
             <h1>¿Qué Hacemos?</h1>
-        </div>
+
+            <section className = "flex-containerCajaProceso">
+                <div className = "cajaProceso"> 
+                    <span> Aqui te mostramos nuestro proceso de produccion </span>
+                </div>
+            </section>
+        </div>  
     )
 }
 
