@@ -20,6 +20,14 @@
     font-size: 3.17vh;
     color:#0F223C  
 }
-
-
+.diagram-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+    margin-top: 60px;
+}
+.diagram{
+    width: 93.611vw;
+}
 
