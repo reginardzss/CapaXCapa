@@ -1,0 +1,201 @@
+.each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 744px;
+}
+  
+.each-slide-effect span {
+    background: rgba(15, 34, 61, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+/* Contenedor para que se acomoden los divs de forma horizontal */
+.slideshow-grid {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* Contenedor para poner la frase encima de las imagenes del slideshow, tambien se usó para el logo */
+.slideshow-container {
+    width: 1000px;
+    padding-left: 60px;
+    color: white;
+    text-align: left;
+    font-family: "Cerebri-Sans-Book", sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;
+    align-items: center;
+    float: left;
+}
+
+/* Contenedor para juntar lo que conforma el logo, la imagen y el nombre de CxC */
+.slideshow-grid-logo {
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    line-height: 30px;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+/* Clase para definir el tamaño de la imagen del logo */
+.slideshow-logo {
+    height: 110px;
+    width: auto;
+}
+
+/* Formato para las palabras del nombre de CxC */
+.slideshow-container span{
+    background: rgba(255, 255, 255, 0); /* transparente */
+    font-family: 'Ananias', sans-serif;
+    font-size: 25px;
+    margin-right: 13px;
+}
+
+/* Formato para el boton de las imagenes, se usa en BotonInicio.js */
+.btn-slideshow {
+    width: 278px;
+    height: 62px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 23px;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+
+    display:inline-block;
+    font-family: "Cerebri-Sans-Book", sans-serif;
+    font-size: 28px;
+    text-align: center;
+    line-height: 30px;
+    color: rgb(0, 0, 0);
+
+    cursor: pointer;
+    align-items: center;
+    transition: 0.25s;
+}
+
+/* hacer el hover */
+.btn-slideshow:hover {
+    transform: translateY(-0.15em);
+}
+
+/* Formatos para poner el color del boton desde Galeria.js, asi cada boton tiene color diferente */
+.btn--yellow {
+    background-color: rgb(239, 200, 100);
+}
+
+.btn--green {
+    background-color: rgb(148, 195, 90);
+}
+
+.btn--red {
+    background-color: rgb(237, 140, 101);
+}
+
+.btn--orange {
+    background-color: rgb(206, 153, 90);
+}
+
+/* Formatos para poner color al texto, se usa en el logo */
+.text-yellow {
+    color: rgb(239, 200, 100);
+}
+
+.text-green {
+    color: rgb(148, 195, 90);
+}
+
+.text-red {
+    color: rgb(237, 140, 101);
+}
+
+.text-orange {
+    color: rgb(206, 153, 90);
+}
+
+.text-main {
+    width: 85%;
+    margin-left: 5%;
+    font-family: "Cerebri-Sans-Book", sans-serif;
+    font-weight: 500;
+    line-height: 76px;
+    font-size: 60px;
+    text-align: left;
+}
+
+
+
+.text-desc-bold {
+
+    font-weight: 800;
+    color: #E4C76A;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.linea {
+    margin: 50px 0;
+    height: 3px;
+    background: repeating-linear-gradient(
+      to right,
+      transparent,
+      transparent 30px,
+      black 30px,
+      black 60px
+    );
+}
+
+/* Contenedor para que se acomoden los divs de forma horizontal */
+.description-grid {
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.description-parragraph {
+    font-family: "Cerebri-Sans-Book", sans-serif;
+    align-items: center;
+
+    width: 80%;
+    margin-left: 5%;
+    font-family: "Cerebri-Sans-Book", sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.circle{
+    margin-left: 275px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    
+    width: 48px;
+    height: 48px;
+    /*position: absolute;*/
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: rgb(239, 200, 100);
+}
+
+.description-bottom-grid {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.texto-impacto {
+    font-family: "Cerebri-Sans-Book", sans-serif;
+    font-weight: 500;
+    line-height: 27px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.texto-impacto-bold {
+    font-family: "Cerebri-Sans-Book", sans-serif;
+    font-weight: 800;
+    line-height: 72px;
+    font-size: 60px;
+    text-align: center;
+}

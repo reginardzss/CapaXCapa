@@ -14,14 +14,21 @@ code {
 
 @font-face {
   font-family: "Ananias";
-  src: url("./fonts/Ananias/Ananias.ttf") format("truetype");
+  src: url("./media/fonts/Ananias/Ananias.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Cerebri-Sans-Book";
-  src: url("./fonts/Cerebri/Cerebri-Sans-Book.ttf") format("truetype");
+  src: url("./media/fonts/Cerebri/Cerebri-Sans-Book.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
+}
+
+@font-face {
+  font-family: "Cerebri-Sans-Book";
+  src: url("./media/fonts/Cerebri-Pro/CerebriSansPro-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
 }
