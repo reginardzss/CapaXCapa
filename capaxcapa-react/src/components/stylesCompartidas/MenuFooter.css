@@ -1,0 +1,62 @@
+h1, p {
+    font-family: "Cerebri-Sans-Book", sans-serif;
+    font-weight: bold;
+    color:#0F223C;
+}
+
+.div-menu {
+    width: 25%;
+    height: 45vw;
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-items{
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-menu {
+    width: 140px;
+    height: 45px;
+    border: 2px solid #0F223C;
+    border-radius: 23px;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+
+    display:inline-block;
+    font-family: "Cerebri-Sans-Book", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 22px;
+    color: #0F223C;
+
+    cursor: pointer;
+    align-items: center;
+    transition: 0.25s;
+}
+
+.menu-mensaje{
+    width: 80vw;
+    height: 17vh;
+    margin: auto;
+    display: flex;
+    background-color: #A2C261;
+    border: 3px solid #0F223C;
+    border-radius: 30px;
+}
+
+.mensaje{
+    font-size: 1.5vw;
+    text-align: left;
+    padding: 3.5vh 0.5vh 3.5vh 1vh;
+}
+
+.menu-icon {
+    height: 220px;
+}

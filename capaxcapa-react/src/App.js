@@ -14,6 +14,7 @@ import QueHacemos from './components/pages/QueHacemos/QueHacemos';
 import Impacto from './components/pages/Impacto/Impacto';
 import Modelos from './components/pages/Modelos/Modelos';
 import Contacto from './components/pages/Contacto';
+import MenuFooter from './components/MenuFooter';
 
 function App() { // esta función maneja el ciclo de vida de la aplicación.
   return ( // lo que regresa no es HTML
@@ -32,7 +33,10 @@ function App() { // esta función maneja el ciclo de vida de la aplicación.
           <Route path='/contacto' element={<Contacto />} />
           {/* Agregar aqui la ruta a los componentes que se vayan importando.   /inicio es como aparecerá en el URL de la página */}
         </Routes>
-        <footer><Footer /></footer>
+        <footer>
+          <MenuFooter />
+          <Footer />
+        </footer>
       </BrowserRouter>
     </div>
   );
