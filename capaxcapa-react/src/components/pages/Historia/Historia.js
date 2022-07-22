@@ -9,7 +9,6 @@ const Historia = () => {
         <div>
             <ImagenFondo imagen={ImagenHeader} titulo={"Nuestra Historia"} />
             <div className='font-face-cerebri-sans-book'>
-                <h1>Nuestra Historia</h1>
                 <Nacimiento />
                 <Logros />
             </div>

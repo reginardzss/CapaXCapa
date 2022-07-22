@@ -2,8 +2,8 @@
 
 p {
     font-family: "Cerebri-Sans-Book", sans-serif;
-    font-weight: 500;
-    font-size: 30px;
+    font-weight: 50vw;
+    font-size: 2vw;
     color: #0F223C;
 }
 
@@ -19,38 +19,64 @@ b.b3 {
     color: #A2C261
 }
 
+.lineas {
+    position: absolute;
+}
+
 .nacimiento-title {
-    width: 1189.33px;
-    height: 212px;
+    width: 50vw;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+img.nacimiento-imagen {
+    display: block;
+    padding: 0;
+    flex: 1;
+    width:30vw;
+    
+    border-style: solid;
+    border-width: 0.3vw;
+    border-color: #0F223C;
+    border-radius: 10%;
+}
+
+.nacimiento-bloque {
+    display: flex;
+
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 10%;
 }
 
 .nacimiento-contenido1 {
     box-sizing: border-box;
 
-    width: 800px;
-    height: 192px;
+    width: 55vw;
     left: 218.67px;
     top: 1541.33px;
-
-    margin: auto;
     text-align: center;
     
+    margin: auto;
+    margin-bottom: 10%;
 }
 
 .nacimiento-contenido2 {
-    width: 800px;
-    height: 257.33px;
+    flex: 1;
 
-    padding-right: 225px;
+    width: 55vw;
+    
+    padding-right: 15vw;
     text-align: left;
 }
 
 .nacimiento-contenido3 {
-    width: 800px;
-    height: 257.33px;
+    flex: 1;
 
-    padding-left:225px;
-    margin-left:40%;
+    width: 55vw;
+
+    padding-left: 15vw;
     text-align: right;
 }
 
