@@ -1,4 +1,4 @@
-import Como_nace from '../../../media/Images/Como-nace.svg'
+import Como_nace from '../../../media/Images/Historia-Como-nace.svg'
 
 const Nacimiento = () => {
     return(
