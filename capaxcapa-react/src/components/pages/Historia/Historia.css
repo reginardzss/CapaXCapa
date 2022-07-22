@@ -80,20 +80,8 @@ img.nacimiento-imagen {
     text-align: right;
 }
 
-.logros-title {
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 370.67px;
-    height: 130.67px;
-    left: 764px;
-    top: 3298.67px;
-
-    background: #BF985E;
-    border: 4px solid #0F223C;
-    border-radius: 54.6667px;
-}
-
-.logros-description {
-    align-items: center;
+.logro-description {
+    width: 50vw;
+    margin-left: 25vw;
+    margin-bottom: 100px;
 }
