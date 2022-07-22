@@ -1,6 +1,12 @@
-.texto-QuienesSomos {
+.texto-QuienesSomosPrimParte {
     font-size: 3.402vw;
     text-align: center;
+    color: #0F223C;
+}
+
+.texto-QuienesSomosSegParte {
+    font-size: 2.361vw;
+    text-align: left;
     color: #0F223C;
 }
 
@@ -15,4 +21,41 @@
 
 .Iconos-y-Valores {
     position: relative;
+}
+
+li {
+    color: #A2C261;
+    /* Bullet Color */
+}
+
+li span {
+    color: #0F223C;
+    /* Text Color */
+}
+
+.Texto-Curvo {
+    font-size: 5.555vw;
+    position: relative;
+    /* right: 21.512vw; */
+    top: 50px;
+}
+
+.letters {
+    height:8px;
+    line-height:16px;
+    border-bottom:1px solid green;
+    position:relative;
+}
+
+.letters > span {
+    float: left;
+    transform: rotate(-90deg);
+}
+  
+.linea {
+    margin: 173px 0 0 0;
+    height:3px;
+    background:
+      repeating-linear-gradient(to right,#0F223C 1,#0F223C 20px, transparent 20px, transparent 22px)
+      /*10px red then 2px transparent -> repeat this!*/
 }
