@@ -69,5 +69,4 @@ function QuienesSomos(){
     )
 }
 
-
 export default QuienesSomos
