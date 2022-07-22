@@ -1,0 +1,94 @@
+.separador {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 7vh;
+}
+
+.grid-horizontal-tres {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.contenedor-info {
+    padding:2vw;
+    margin-top: 2vw;
+}
+
+.impacto-contenedor-informacion {
+    width: 22vw;
+    height: 30vh;
+    border-radius: 50px;
+    border: 3px solid rgb(0, 0, 0);
+    font-family: "Cerebri-Sans-Book", sans-serif;
+}
+
+.info-numero-grande {
+    font-weight: 200;
+    font-size: 9.5vw;/*137px;*/
+    line-height: 11.5vw;/*166px;*/
+    -webkit-text-stroke: 2px black;
+}
+
+.info-texto {
+    color:rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 1.6vw; /*23px*/
+    line-height: 1.9vw; /*27*/
+}
+
+.contenedor:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contenedor-fotos-chicas {
+    width: 39%;
+    margin: 2vw 0.5vw 0vw 1.5vw;
+    float: left;
+}
+
+.foto-chica {
+    background-color: rgb(166, 154, 83);
+    width: 100%;
+    height: 25vh;
+    border-radius: 50px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.foto-mediana {
+    background-color: rgb(127, 163, 255);
+    width: 39%;
+    height: calc(50vh + 2vw); /* 25vh x 2 (2 fotos chicas) + 2vw (del margin-top en Impacto.js) */
+    margin: 2vw 1vw 1vw 1vw;
+    float: left;
+    border-radius: 50px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.foto-grande {
+    background-color: rgb(255, 127, 223);
+    width: 55%;
+    height: calc(50vh + 2vw);  /* 25vh x 2 (2 fotos chicas) + 2vw (del margin-top en Impacto.js) */
+    margin: 2vw 1vw 0vw 1.5vw;
+    float: left;
+    border-radius: 50px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+/* Formatos para poner color al texto, se usa en el logo */
+.text-yellow {
+    color: rgb(239, 200, 100);
+}
+
+.text-green {
+    color: rgb(148, 195, 90);
+}
+
+.text-red {
+    color: rgb(237, 140, 101);
+}
+
+.text-orange {
+    color: rgb(206, 153, 90);
+}
