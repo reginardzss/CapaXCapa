@@ -4,12 +4,19 @@ p {
     font-family: "Cerebri-Sans-Book", sans-serif;
     font-weight: 500;
     font-size: 30px;
-    line-height: 69px;
     color: #0F223C;
 }
 
 b {
     color: #D68B67
+}
+
+b.b2 {
+    color: #BF985E
+}
+
+b.b3 {
+    color: #A2C261
 }
 
 .nacimiento-title {
@@ -20,13 +27,31 @@ b {
 .nacimiento-contenido1 {
     box-sizing: border-box;
 
-    width: 1000px;
+    width: 800px;
     height: 192px;
     left: 218.67px;
     top: 1541.33px;
 
+    margin: auto;
     text-align: center;
     
+}
+
+.nacimiento-contenido2 {
+    width: 800px;
+    height: 257.33px;
+
+    padding-right: 225px;
+    text-align: left;
+}
+
+.nacimiento-contenido3 {
+    width: 800px;
+    height: 257.33px;
+
+    padding-left:225px;
+    margin-left:40%;
+    text-align: right;
 }
 
 .logros-title {
