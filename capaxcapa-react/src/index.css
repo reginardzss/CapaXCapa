@@ -25,3 +25,10 @@ code {
   font-style: normal;
   font-weight: normal;
 }
+
+@font-face {
+  font-family: "Cerebri-Sans-Book";
+  src: url("./media/fonts/Cerebri-Pro/CerebriSansPro-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}

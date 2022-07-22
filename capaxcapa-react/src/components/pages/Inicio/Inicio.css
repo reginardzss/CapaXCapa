@@ -114,3 +114,88 @@
 .text-orange {
     color: rgb(206, 153, 90);
 }
+
+.text-main {
+    width: 85%;
+    margin-left: 5%;
+    font-family: "Cerebri-Sans-Book", sans-serif;
+    font-weight: 500;
+    line-height: 76px;
+    font-size: 60px;
+    text-align: left;
+}
+
+
+
+.text-desc-bold {
+
+    font-weight: 800;
+    color: #E4C76A;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.linea {
+    margin: 50px 0;
+    height: 3px;
+    background: repeating-linear-gradient(
+      to right,
+      transparent,
+      transparent 30px,
+      black 30px,
+      black 60px
+    );
+}
+
+/* Contenedor para que se acomoden los divs de forma horizontal */
+.description-grid {
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.description-parragraph {
+    font-family: "Cerebri-Sans-Book", sans-serif;
+    align-items: center;
+
+    width: 80%;
+    margin-left: 5%;
+    font-family: "Cerebri-Sans-Book", sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.circle{
+    margin-left: 275px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    
+    width: 48px;
+    height: 48px;
+    /*position: absolute;*/
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: rgb(239, 200, 100);
+}
+
+.description-bottom-grid {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.texto-impacto {
+    font-family: "Cerebri-Sans-Book", sans-serif;
+    font-weight: 500;
+    line-height: 27px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.texto-impacto-bold {
+    font-family: "Cerebri-Sans-Book", sans-serif;
+    font-weight: 800;
+    line-height: 72px;
+    font-size: 60px;
+    text-align: center;
+}
