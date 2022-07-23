@@ -1,0 +1,7 @@
+.linea {
+    margin: 173px 0 0 0;
+    height:3px;
+    background:
+      repeating-linear-gradient(to right,#0F223C 1,#0F223C 20px, transparent 20px, transparent 22px)
+      /*10px red then 2px transparent -> repeat this!*/
+}

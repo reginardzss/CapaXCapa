@@ -9,13 +9,14 @@ import Lapiz from '../../../media/Images/Icons/elementos-gráficos/Lápiz.svg'
 import Libros from '../../../media/Images/Icons/elementos-gráficos/Libros.svg'
 
 import '../Inicio/Inicio.css'
+import '../../stylesCompartidas/Linea.css'
 import './QuienesSomos.css'
 import ImagenFondo from '../../ImagenFondo';
 
 function QuienesSomos(){
     return (
         <div className='font-face-cerebri-sans-pro'>
-            <ImagenFondo imagen={FotoSlide2} titulo={"¿Quiénes somos?"}/>
+            <ImagenFondo imagen={FotoSlide2} titulo={"¿Quiénes somos?"} colorTexto={'#E4C76A'}/>
             {/* Primer texto. Está centrado. */}
             <section className='intro-QuienesSomos texto-QuienesSomosPrimParte' style={{width: '87.638vw', height: '222px', margin: '76px 6.18vw 95px 6.18vw'}}>
                 Somos un grupo de <span style={{color: '#BF985E'}}>jóvenes emprendedores</span> distinguido por la variedad de habilidades personales que nos hace complementarnos el uno al otro creando un equipo.
