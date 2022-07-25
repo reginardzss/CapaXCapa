@@ -18,14 +18,14 @@ function Descripcion(){
             </div>
             <div className="linea"></div>
             <div className="slideshow-grid">
-                <div className="description-grid">
+                <div className="description-grid" style={{ 'marginLeft': '5vw', 'marginBottom' : `4vh`}}>
                     <div className="description-parragraph">
                         <div className='circle'>
                         </div>
                         <span>
                             Una de las causas más comunes de abandono escolar en México es la
                         </span>
-                        <span className="text-desc-bold"> 
+                        <span className="text-desc-bold" style={{ 'marginRight': `1%` }}> 
                             falta de motivación
                         </span>
                         <span>
@@ -47,37 +47,51 @@ function Descripcion(){
                         <span className="text-desc-bold"> 
                             calidad de vida
                         </span>
-                        <span>
+                        <span style={{ 'marginRight': `1%` }}>
                             , la 
                         </span>
+                        <span className="text-desc-bold-red" style={{ 'marginRight': `1%` }}>
+                            toma de oportunidades
+                        </span>
                         <span>
-                            debido a que los métodos de enseñanza actuales no mantienen el interés de los estudiantes.
+                            y la 
+                        </span>
+                        <span className="text-desc-bold-red">
+                            salud mental
+                        </span>
+                        <span>
+                            .
                         </span>
                     </div>
                     <div className="description-parragraph">
                     <div className='circle'>
                         </div>
                         <span>
-                            Una de las causas más comunes de abandono escolar en México es la
+                            Sin mencionar que 
                         </span>
                         <span className="text-desc-bold"> 
-                            falta de motivación
+                            aumenta la desigualdad social
                         </span>
                         <span>
-                            debido a que los métodos de enseñanza actuales no mantienen el interés de los estudiantes.
+                            , lo que representa una enorme pérdida de potencial humano.
                         </span>
                     </div>
                 </div>
-                <div>
-                    <img src={Foto} className="slideshow-logo"/>
+                <div className='imagen-descp' style={{ 'backgroundImage': `url(${Foto})` }}>
+                    <div>
+                        <img src={Lapiz} className="imagen-lapiz"/>
+                    </div>
+                    <div>
+                        
+                    </div>
                 </div>
             </div>
             <div className="linea"></div>
             <div className="description-bottom-grid">
-                <div style={{ 'width': `20%` }}>
-                <img src={Libros} className="slideshow-logo"/>
+                <div style={{ 'width': `20vw` }}>
+                    <img src={Libros} className="imagen-libro"/>
                 </div>
-                <div className="slideshow-grid" style={{ 'width': `26.6%` }}>
+                <div className="description-bottom" style={{ 'width': `26.6%` }}>
                     <div>
                         <span className="text-red texto-impacto-bold">7</span>
                     </div>
@@ -85,7 +99,7 @@ function Descripcion(){
                         <span className="texto-impacto"> meses desde la creación del proyecto </span>
                     </div>
                 </div>
-                <div className="slideshow-grid" style={{ 'width': `26.6%` }}>
+                <div className="description-bottom" style={{ 'width': `26.6%` }}>
                     <div>
                         <span className="text-green texto-impacto-bold">4</span>
                     </div>
@@ -93,7 +107,7 @@ function Descripcion(){
                         <span className="texto-impacto"> colaboraciones </span>
                     </div>
                 </div>
-                <div className="slideshow-grid" style={{ 'width': `26.6%` }}>
+                <div className="description-bottom" style={{ 'width': `26.6%` }}>
                     <div>
                         <span className="text-red texto-impacto-bold">310</span>
                     </div>

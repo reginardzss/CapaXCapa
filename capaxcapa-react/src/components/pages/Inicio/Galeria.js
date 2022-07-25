@@ -22,15 +22,15 @@ const Galeria = () => {
                 <div style={{ 'backgroundImage': `url(${FotoSlide1})` }}>                               {/* Foto de la slide */}
                     <span>
                         <div className="slideshow-grid">                                                {/* Dividir en dos partes lo que va en la foto */}
-                            <div className="slideshow-container">                                       {/* Mitad izquierda, texto y boton */}
-                                <div style={{ 'height': `120px` }}></div>                               {/* Espacio en blanco */}
+                            <div className="slideshow-container" style={{ 'width': `70vw` }}>           {/* Mitad izquierda, texto y boton */}
+                                <div style={{ 'height': `8.333vw` }}></div>                             {/* Espacio en blanco */}
                                 <div>"Si no estas dispuesto a aprender, nadie te puede ayudar</div>
-                                <div style={{ 'height': `60px` }}></div>                                {/* Espacio en blanco */}
+                                <div style={{ 'height': `4.167vw` }}></div>                             {/* Espacio en blanco */}
                                 <div>Si estas dispuesto a aprender, nadie te puede parar"</div>
-                                <div style={{ 'height': `30px` }}></div>                                {/* Espacio en blanco */}
+                                <div style={{ 'height': `2.083vw` }}></div>                             {/* Espacio en blanco */}
                                 <Link to={"/nuestra-historia"}> <Button buttonStyle="btn--yellow"> Nuestra Historia </Button> </Link>
                             </div>
-                            <div className="slideshow-container">                                       {/* Mitad derecha, logo y nombre CxC */}
+                            <div className="slideshow-container" style={{ 'width': `20vw`, 'padding-left' : `0vw`}}>{/* Mitad derecha, logo y nombre CxC */}
                                 <div className="slideshow-grid-logo">                                   {/* Cuadro que encierra logo y nombre */}
                                     <img src={Logo} className="slideshow-logo"/>
                                     <div style={{ 'width': `185px` }}>                                  {/* Línea del nombre (mismo tamaño que logo) */}
@@ -45,19 +45,19 @@ const Galeria = () => {
                 </div>
             </div>
 
-            <div className="each-slide-effect">                                                         {/* Slide 2 */}
+            <div className="each-slide-effect">                                                         {/* Slide 1 */}
                 <div style={{ 'backgroundImage': `url(${FotoSlide2})` }}>                               {/* Foto de la slide */}
                     <span>
-                        <div className="slideshow-grid">                                                {/* Mitad izquierda, texto y boton */}
-                            <div className="slideshow-container">                                       {/* Mitad izquierda, texto y boton */}
-                                <div style={{ 'height': `120px` }}></div>                               {/* Espacio en blanco */}
+                        <div className="slideshow-grid">                                                {/* Dividir en dos partes lo que va en la foto */}
+                            <div className="slideshow-container" style={{ 'width': `70vw` }}>           {/* Mitad izquierda, texto y boton */}
+                                <div style={{ 'height': `8.333vw` }}></div>                             {/* Espacio en blanco */}
                                 <div>"Si no estas dispuesto a aprender, nadie te puede ayudar</div>
-                                <div style={{ 'height': `60px` }}></div>                                {/* Espacio en blanco */}
+                                <div style={{ 'height': `4.167vw` }}></div>                             {/* Espacio en blanco */}
                                 <div>Si estas dispuesto a aprender, nadie te puede parar"</div>
-                                <div style={{ 'height': `30px` }}></div>                                {/* Espacio en blanco */}
+                                <div style={{ 'height': `2.083vw` }}></div>                             {/* Espacio en blanco */}
                                 <Link to={"/quienes-somos"}> <Button buttonStyle="btn--red"> ¿Quiénes somos? </Button> </Link>
                             </div>
-                            <div className="slideshow-container">                                       {/* Mitad derecha, logo y nombre CxC */}
+                            <div className="slideshow-container" style={{ 'width': `20vw`, 'padding-left' : `0vw`}}>{/* Mitad derecha, logo y nombre CxC */}
                                 <div className="slideshow-grid-logo">                                   {/* Cuadro que encierra logo y nombre */}
                                     <img src={Logo} className="slideshow-logo"/>
                                     <div style={{ 'width': `185px` }}>                                  {/* Línea del nombre (mismo tamaño que logo) */}
@@ -72,19 +72,19 @@ const Galeria = () => {
                 </div>
             </div>
 
-            <div className="each-slide-effect">                                                         {/* Slide 3 */}
+            <div className="each-slide-effect">                                                         {/* Slide 1 */}
                 <div style={{ 'backgroundImage': `url(${FotoSlide3})` }}>                               {/* Foto de la slide */}
                     <span>
-                        <div className="slideshow-grid">                                                {/* Mitad izquierda, texto y boton */}
-                            <div className="slideshow-container">                                       {/* Mitad izquierda, texto y boton */}
-                                <div style={{ 'height': `120px` }}></div>                               {/* Espacio en blanco */}
+                        <div className="slideshow-grid">                                                {/* Dividir en dos partes lo que va en la foto */}
+                            <div className="slideshow-container" style={{ 'width': `70vw` }}>           {/* Mitad izquierda, texto y boton */}
+                                <div style={{ 'height': `8.333vw` }}></div>                             {/* Espacio en blanco */}
                                 <div>"Si no estas dispuesto a aprender, nadie te puede ayudar</div>
-                                <div style={{ 'height': `60px` }}></div>                                {/* Espacio en blanco */}
+                                <div style={{ 'height': `4.167vw` }}></div>                             {/* Espacio en blanco */}
                                 <div>Si estas dispuesto a aprender, nadie te puede parar"</div>
-                                <div style={{ 'height': `30px` }}></div>                                {/* Espacio en blanco */}
+                                <div style={{ 'height': `2.083vw` }}></div>                             {/* Espacio en blanco */}
                                 <Link to={"/que-hacemos"}> <Button buttonStyle="btn--green"> ¿Qué hacemos? </Button> </Link>
                             </div>
-                            <div className="slideshow-container">                                       {/* Mitad derecha, logo y nombre CxC */}
+                            <div className="slideshow-container" style={{ 'width': `20vw`, 'padding-left' : `0vw`}}>{/* Mitad derecha, logo y nombre CxC */}
                                 <div className="slideshow-grid-logo">                                   {/* Cuadro que encierra logo y nombre */}
                                     <img src={Logo} className="slideshow-logo"/>
                                     <div style={{ 'width': `185px` }}>                                  {/* Línea del nombre (mismo tamaño que logo) */}
@@ -99,19 +99,19 @@ const Galeria = () => {
                 </div>
             </div>
 
-            <div className="each-slide-effect">                                                         {/* Slide 4 */}
+            <div className="each-slide-effect">                                                         {/* Slide 1 */}
                 <div style={{ 'backgroundImage': `url(${FotoSlide4})` }}>                               {/* Foto de la slide */}
                     <span>
-                        <div className="slideshow-grid">                                                {/* Mitad izquierda, texto y boton */}
-                            <div className="slideshow-container">                                       {/* Mitad izquierda, texto y boton */}
-                                <div style={{ 'height': `120px` }}></div>                               {/* Espacio en blanco */}
+                        <div className="slideshow-grid">                                                {/* Dividir en dos partes lo que va en la foto */}
+                            <div className="slideshow-container" style={{ 'width': `70vw` }}>           {/* Mitad izquierda, texto y boton */}
+                                <div style={{ 'height': `8.333vw` }}></div>                             {/* Espacio en blanco */}
                                 <div>"Si no estas dispuesto a aprender, nadie te puede ayudar</div>
-                                <div style={{ 'height': `60px` }}></div>                                {/* Espacio en blanco */}
+                                <div style={{ 'height': `4.167vw` }}></div>                             {/* Espacio en blanco */}
                                 <div>Si estas dispuesto a aprender, nadie te puede parar"</div>
-                                <div style={{ 'height': `30px` }}></div>                                {/* Espacio en blanco */}
+                                <div style={{ 'height': `2.083vw` }}></div>                             {/* Espacio en blanco */}
                                 <Link to={"/impacto"}> <Button buttonStyle="btn--orange"> Impacto generado </Button> </Link>
                             </div>
-                            <div className="slideshow-container">                                       {/* Mitad derecha, logo y nombre CxC */}
+                            <div className="slideshow-container" style={{ 'width': `20vw`, 'padding-left' : `0vw`}}>{/* Mitad derecha, logo y nombre CxC */}
                                 <div className="slideshow-grid-logo">                                   {/* Cuadro que encierra logo y nombre */}
                                     <img src={Logo} className="slideshow-logo"/>
                                     <div style={{ 'width': `185px` }}>                                  {/* Línea del nombre (mismo tamaño que logo) */}

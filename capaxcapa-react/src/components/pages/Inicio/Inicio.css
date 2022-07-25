@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     background-size: cover;
-    height: 744px;
+    height: 100vh;
 }
   
 .each-slide-effect span {
@@ -20,14 +20,13 @@
 
 /* Contenedor para poner la frase encima de las imagenes del slideshow, tambien se usó para el logo */
 .slideshow-container {
-    width: 1000px;
-    padding-left: 60px;
+    padding-left: 4.167vw;
     color: white;
     text-align: left;
     font-family: "Cerebri-Sans-Book", sans-serif;
     font-weight: 500;
-    font-size: 60px;
-    line-height: 73px;
+    font-size: 4.167vw;
+    line-height: 5.069vw;
     align-items: center;
     float: left;
 }
@@ -36,15 +35,15 @@
 .slideshow-grid-logo {
     display:grid;
     grid-template-columns: repeat(1, 1fr);
-    line-height: 30px;
-    margin-top: 10px;
-    margin-left: 130px;
+    line-height: 2.083vw;
+    margin-top: 1.344vh;
+    margin-left: 9.028vw;
 }
 
 /* Clase para definir el tamaño de la imagen del logo */
 .slideshow-logo {
     height: 110px;
-    width: auto;
+    width: auto; /*189px*/
 }
 
 /* Formato para las palabras del nombre de CxC */
@@ -52,23 +51,23 @@
     background: rgba(255, 255, 255, 0); /* transparente */
     font-family: 'Ananias', sans-serif;
     font-size: 25px;
-    margin-right: 13px;
+    margin-right: 0.903vw;
 }
 
 /* Formato para el boton de las imagenes, se usa en BotonInicio.js */
 .btn-slideshow {
-    width: 278px;
-    height: 62px;
-    border: 3px solid rgb(0, 0, 0);
-    border-radius: 23px;
+    width: 19.306vw;
+    height: 4.306vw;
+    border: 0.208vw solid rgb(0, 0, 0);
+    border-radius: 1.597vw;
     margin: 0px;
     padding: 0px 0px 0px 0px;
 
     display:inline-block;
     font-family: "Cerebri-Sans-Book", sans-serif;
-    font-size: 28px;
+    font-size: 1.944vw;
     text-align: center;
-    line-height: 30px;
+    line-height: 2.083vw;
     color: rgb(0, 0, 0);
 
     cursor: pointer;
@@ -116,26 +115,33 @@
 }
 
 .text-main {
-    width: 85%;
-    margin-left: 5%;
+    width: 85vw;
+    margin-left: 5vw;
     font-family: "Cerebri-Sans-Book", sans-serif;
     font-weight: 500;
-    line-height: 76px;
-    font-size: 60px;
+    line-height: 5.278vw; /*76*/
+    font-size: 4.167vw; /*60*/
     text-align: left;
 }
 
-
-
 .text-desc-bold {
-
-    font-weight: 800;
+    font-weight: 500;
     color: #E4C76A;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 1%;
+    font-weight: 800;
+    /*margin-right: 10px;*/
 }
+
+.text-desc-bold-red {
+    font-weight: 500;
+    color: #D68B67;
+    margin-left: 1%;
+    font-weight: 800;
+    /*margin-right: 10px;*/
+}
+
 .linea {
-    margin: 50px 0;
+    margin: 80px 0;
     height: 3px;
     background: repeating-linear-gradient(
       to right,
@@ -150,28 +156,29 @@
 .description-grid {
     display:grid;
     grid-template-columns: repeat(1, 1fr);
+    width: 50vw;
 }
 
 .description-parragraph {
     font-family: "Cerebri-Sans-Book", sans-serif;
     align-items: center;
 
-    width: 80%;
-    margin-left: 5%;
+    width: 43vw;
+    margin-left: 2vw;
     font-family: "Cerebri-Sans-Book", sans-serif;
     font-weight: 500;
-    line-height: 30px;
-    font-size: 23px;
+    line-height: 2.083vw;
+    font-size: 1.597vw;
     text-align: center;
 }
 
 .circle{
-    margin-left: 275px;
-    margin-bottom: 20px;
-    margin-top: 30px;
+    margin-left: 47%;
+    margin-bottom: 3%;
+    margin-top: 6%;
     
-    width: 48px;
-    height: 48px;
+    width: 3.333vw;
+    height: 3.333vw;
     /*position: absolute;*/
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -179,23 +186,60 @@
     background: rgb(239, 200, 100);
 }
 
-.description-bottom-grid {
+.imagen-descp{
+    border-radius: 40px 0px 0px 40px;
+    width: 42.569vw;
+    height: 67.94vh;
+    margin-left: 1.3vw;
+    margin-top: 6%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.imagen-lapiz{
+    width: 4.256vw;
+    height: auto;
+    margin-top: -5%;
+    margin-right: 80%;
+    /*display:inline;*/
+}
+
+/*.description-bottom-grid {
     display:grid;
     grid-template-columns: repeat(4, 1fr);
+}*/
+
+.description-bottom-grid:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.description-bottom {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    float: left;
+    font-family: "Cerebri-Sans-Book", sans-serif;
 }
 
 .texto-impacto {
-    font-family: "Cerebri-Sans-Book", sans-serif;
+    /*font-family: "Cerebri-Sans-Book", sans-serif;*/
     font-weight: 500;
-    line-height: 27px;
-    font-size: 23px;
+    line-height: 2.569vw;
+    font-size: 2.083vw;
     text-align: center;
 }
 
 .texto-impacto-bold {
-    font-family: "Cerebri-Sans-Book", sans-serif;
     font-weight: 800;
-    line-height: 72px;
-    font-size: 60px;
+    line-height: 5.694vw;
+    font-size: 4.861vw;
     text-align: center;
+}
+
+.imagen-libro{
+    width: 9.028vw;
+    height: 23.5vh;
+    float: left;
+    margin-left:5vw;
 }
