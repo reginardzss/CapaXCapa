@@ -1,3 +1,5 @@
+import React, { Component }  from 'react'; // CAMBIO EMILIO... ERROR
+
 function Nosotros(){
     return (
         <div>

@@ -1,5 +1,6 @@
 import './Impacto.css';
 import ImagenFondo from '../../ImagenFondo.js'
+import React, { Component }  from 'react'; // CAMBIO EMILIO... ERROR
 
 import Foto from '../../../media/Images/Inicio-slide-2.jpg';
 import Lapiz from '../../../media/Images/Icons/Lapiz.svg';

@@ -1,3 +1,4 @@
+import React, { Component }  from 'react'; // CAMBIO EMILIO... ERROR
 function Modelos(){
     return (
         <div>

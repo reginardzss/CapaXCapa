@@ -1,3 +1,4 @@
+import React, { Component }  from 'react'; // CAMBIO EMILIO... ERROR
 function Contacto(){
     return (
         <div>

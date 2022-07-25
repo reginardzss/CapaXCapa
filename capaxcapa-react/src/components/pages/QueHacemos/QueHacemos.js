@@ -2,6 +2,7 @@ import ImagenFondo from '../../ImagenFondo.js'
 import fondoSlide from '../../../media/Images/Inicio-slide-3.jpg'
 import diagram from '../../../media/Images/Diagrama_Que_Hacemos.jpg'
 import './QueHacemos.css'
+import React, { Component }  from 'react'; // CAMBIO EMILIO... ERROR
 function QueHacemos() {
     return (
         <div>
