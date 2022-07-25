@@ -32,3 +32,9 @@ code {
   font-style: normal;
   font-weight: 500;
 }
+
+@font-face {
+    font-family: "Cerebri Sans Bold";
+    src: url("./media/fonts/Cerebri/Cerebri Sans Bold.ttf") format("truetype");
+    font-style: bold;
+}

@@ -94,7 +94,7 @@ function Descripcion(){
                 </div>
                 <div className="description-bottom" style={{ 'width': `26vw` }}>
                     <div style={{ 'width': `6vw`, 'textAlign' : `right` }}>
-                        <span className="text-red" style={{ 'fontSize': `4.861vw`, 'fontWeight': `900`, 'lineHeight': `5.694vw`}}>
+                        <span className="text-red" style={{ 'fontSize': `4.861vw`, 'fontWeight': `900`, 'lineHeight': `5.694vw`, 'fontFamily' : `Cerebri Sans Bold`}}>
                             7
                         </span>
                     </div>
@@ -104,7 +104,7 @@ function Descripcion(){
                 </div>
                 <div className="description-bottom" style={{ 'width': `26vw` }}>
                     <div style={{ 'width': `6vw`, 'textAlign' : `right` }}>
-                        <span className="text-green" style={{ 'fontSize': `4.861vw`, 'fontWeight': `900`, 'lineHeight': `5.694vw`}}>
+                        <span className="text-green" style={{ 'fontSize': `4.861vw`, 'fontWeight': `900`, 'lineHeight': `5.694vw`, 'fontFamily' : `Cerebri Sans Bold`}}>
                             4
                         </span>
                     </div>
@@ -114,7 +114,7 @@ function Descripcion(){
                 </div>
                 <div className="description-bottom" style={{ 'width': `26vw` }}>
                     <div style={{ 'width': `9vw`, 'textAlign' : `right` }}>
-                        <span className="text-orange" style={{ 'fontSize': `4.861vw`, 'fontWeight': `900`, 'lineHeight': `5.694vw`}}>
+                        <span className="text-orange" style={{ 'fontSize': `4.861vw`, 'fontWeight': `900`, 'lineHeight': `5.694vw`, 'fontFamily' : `Cerebri Sans Bold`}}>
                             310
                         </span>
                     </div>
