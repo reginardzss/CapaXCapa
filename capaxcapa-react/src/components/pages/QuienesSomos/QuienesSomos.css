@@ -51,3 +51,73 @@ li span {
     float: left;
     transform: rotate(-90deg);
 }
+
+/* style={{marginLeft: '3.888vw', marginRight: '4.322vw', display: 'flex', justifyContent: 'center'}} */
+#div-integrantes-CapaXCapa {
+    margin-left: 3.88vw;
+    margin-right: 4.322vw;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 860px) {
+    #div-integrantes-CapaXCapa {
+        margin-left: 3.88vw;
+        margin-right: 4.322vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+.info-integrantes-CapaXCapa {
+    margin-right: 1.18vw;
+}
+
+.integrantes-CapaXCapa {
+    height: 15.902vw;
+    width: 15.902vw;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #0F223C;
+}
+
+.nombres-integrantes-CapaXCapa {
+    font-size: 1.158vw;
+    color: #0F223C;
+    text-align: center;
+    margin-top: 66px;
+    width: 9.375vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1.77835px solid #0F223C;
+    border-radius: 13.7036px;
+}
+
+.carrera-linkedin {
+    margin-top: 23px;
+    display: flex;
+    justify-content: center;
+    margin-left: 1.2vw;
+}
+
+.carrera {
+    font-size: 0.833vw;
+    color: #0F223C;
+    text-align: center;
+    width: 6.041vw;
+    border: 1.77835px solid #0F223C;
+    border-radius: 13.7036px;
+    margin-bottom: auto;
+}
+
+.linkedin {
+    height: 2.569vw;
+    width: 2.638vw;
+    position: relative;
+    bottom: 9px;
+    border: 1.77835px solid #0F223C;
+    border-radius: 13.7036px;
+    background-color: #005DC6;
+    padding: 0.2vw 0.2vw 0.2vw 0.2vw;
+}
