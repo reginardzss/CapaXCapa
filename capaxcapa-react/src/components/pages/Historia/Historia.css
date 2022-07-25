@@ -19,10 +19,6 @@ b.b3 {
     color: #A2C261
 }
 
-.lineas {
-    position: absolute;
-}
-
 .nacimiento-title {
     width: 50vw;
 
@@ -54,8 +50,7 @@ img.nacimiento-imagen {
     box-sizing: border-box;
 
     width: 55vw;
-    left: 218.67px;
-    top: 1541.33px;
+
     text-align: center;
     
     margin: auto;
@@ -79,6 +74,61 @@ img.nacimiento-imagen {
     padding-left: 15vw;
     text-align: right;
 }
+
+.linea {
+    margin: 50px 0;
+    height: 3px;
+    background: repeating-linear-gradient(
+      to right,
+      transparent,
+      transparent 30px,
+      black 30px,
+      black 60px
+    );
+}
+
+.linea-vertical {
+    position: absolute;
+    left: 50vw;
+
+
+    width: 0.2vw;
+
+    background: repeating-linear-gradient(
+        to top,
+        transparent,
+        transparent 0.7vw,
+        black 0.7vw,
+        black 1.4vw
+    )
+}
+
+.linea-horizontal {
+    position: absolute;
+    height: 0.2vw;
+
+    background: repeating-linear-gradient(
+        to right,
+        transparent,
+        transparent 0.7vw,
+        black 0.7vw,
+        black 1.4vw
+    )
+}
+
+/*
+.linea {
+    margin: 50px 0;
+    height: 3px;
+    background: repeating-linear-gradient(
+      to right,
+      transparent,
+      transparent 30px,
+      black 30px,
+      black 60px
+    );
+}
+*/
 
 .logro-description {
     width: 50vw;
