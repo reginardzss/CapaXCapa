@@ -219,27 +219,23 @@
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     float: left;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.description-bottom span {
     font-family: "Cerebri-Sans-Book", sans-serif;
-}
-
-.texto-impacto {
-    /*font-family: "Cerebri-Sans-Book", sans-serif;*/
+    font-size: 1.597vw;
     font-weight: 500;
-    line-height: 2.569vw;
-    font-size: 2.083vw;
-    text-align: center;
-}
-
-.texto-impacto-bold {
-    font-weight: 800;
-    line-height: 5.694vw;
-    font-size: 4.861vw;
-    text-align: center;
+    line-height: 1.875vw;
+    text-align: left;
 }
 
 .imagen-libro{
-    width: 9.028vw;
-    height: 23.5vh;
+    width: 130px;
+    height: auto;
     float: left;
-    margin-left:5vw;
+    margin-left: 5vw;
+    margin-right: 4vw;
+    margin-bottom: -60px;
 }

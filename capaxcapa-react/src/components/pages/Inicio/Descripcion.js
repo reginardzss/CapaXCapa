@@ -5,6 +5,7 @@ import Foto from '../../../media/Images/Inicio-slide-5.jpg';
 import Lapiz from '../../../media/Images/Icons/Lapiz.svg';
 import Libros from '../../../media/Images/Icons/Libros.svg';
 
+
 function Descripcion(){
     return (
         <div>
@@ -88,33 +89,40 @@ function Descripcion(){
             </div>
             <div className="linea"></div>
             <div className="description-bottom-grid">
-                <div style={{ 'width': `20vw` }}>
+                <div>
                     <img src={Libros} className="imagen-libro"/>
                 </div>
-                <div className="description-bottom" style={{ 'width': `26.6%` }}>
-                    <div>
-                        <span className="text-red texto-impacto-bold">7</span>
+                <div className="description-bottom" style={{ 'width': `26vw` }}>
+                    <div style={{ 'width': `6vw`, 'textAlign' : `right` }}>
+                        <span className="text-red" style={{ 'fontSize': `4.861vw`, 'fontWeight': `900`, 'lineHeight': `5.694vw`}}>
+                            7
+                        </span>
                     </div>
-                    <div>
-                        <span className="texto-impacto"> meses desde la creación del proyecto </span>
-                    </div>
-                </div>
-                <div className="description-bottom" style={{ 'width': `26.6%` }}>
-                    <div>
-                        <span className="text-green texto-impacto-bold">4</span>
-                    </div>
-                    <div>
-                        <span className="texto-impacto"> colaboraciones </span>
+                    <div style={{ 'width': `19vw`, 'textAlign' : `left`, 'paddingRight' : `2vw`}}>
+                        <span> meses desde la creación del proyecto </span>
                     </div>
                 </div>
-                <div className="description-bottom" style={{ 'width': `26.6%` }}>
-                    <div>
-                        <span className="text-red texto-impacto-bold">310</span>
+                <div className="description-bottom" style={{ 'width': `26vw` }}>
+                    <div style={{ 'width': `6vw`, 'textAlign' : `right` }}>
+                        <span className="text-green" style={{ 'fontSize': `4.861vw`, 'fontWeight': `900`, 'lineHeight': `5.694vw`}}>
+                            4
+                        </span>
                     </div>
-                    <div>
-                        <span className="texto-impacto"> estudiantes beneficiados </span>
+                    <div style={{ 'width': `19vw`, 'textAlign' : `left`, 'paddingRight' : `2vw`}}>
+                        <span> colaboraciones </span>
                     </div>
                 </div>
+                <div className="description-bottom" style={{ 'width': `26vw` }}>
+                    <div style={{ 'width': `9vw`, 'textAlign' : `right` }}>
+                        <span className="text-orange" style={{ 'fontSize': `4.861vw`, 'fontWeight': `900`, 'lineHeight': `5.694vw`}}>
+                            310
+                        </span>
+                    </div>
+                    <div style={{ 'width': `16vw`, 'textAlign' : `left`, 'paddingRight' : `1vw`}}>
+                        <span> estudiantes beneficiados </span>
+                    </div>
+                </div>
+                
             </div>
         </div>
     )
