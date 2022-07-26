@@ -7,7 +7,7 @@ const Logro = ({children, image}) => {
             <p className="logro-description">
                 {children}
             </p>
-            <img style={{'marginBottom':'100px'}} src={image}/>
+            <img className="logro-imagen" src={image}/>
         </div>
     )
 }

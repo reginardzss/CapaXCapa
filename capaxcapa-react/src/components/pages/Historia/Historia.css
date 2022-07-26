@@ -131,7 +131,15 @@ img.nacimiento-imagen {
 */
 
 .logro-description {
-    width: 50vw;
-    margin-left: 25vw;
-    margin-bottom: 100px;
+    width: 75vw;
+    margin-left: 12.5vw;
+    margin-bottom: 5vh;
+    font-size: 30px;
+}
+
+.logro-imagen {
+    width: 75vw;
+    /*height: 60vh;
+    margin-left: 25vw;*/
+    margin-bottom: 10vh;
 }
