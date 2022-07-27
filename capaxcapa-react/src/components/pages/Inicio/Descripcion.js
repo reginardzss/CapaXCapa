@@ -7,6 +7,14 @@ import Libros from '../../../media/Images/Icons/Libros.svg';
 
 
 function Descripcion(){
+    const startYear = 2021;
+    const startMonth = 7;
+
+    var months, today = new Date();
+    months = (today.getFullYear() - startYear) * 12;
+    months -= startMonth;
+    months += today.getMonth();
+
     return (
         <div>
             <div className='text-main'>
@@ -95,7 +103,7 @@ function Descripcion(){
                 <div className="description-bottom" style={{ 'width': `26vw` }}>
                     <div style={{ 'width': `6vw`, 'textAlign' : `right` }}>
                         <span className="text-red" style={{ 'fontSize': `4.861vw`, 'fontWeight': `900`, 'lineHeight': `5.694vw`, 'fontFamily' : `Cerebri Sans Bold`}}>
-                            7
+                            {months}
                         </span>
                     </div>
                     <div style={{ 'width': `19vw`, 'textAlign' : `left`, 'paddingRight' : `2vw`}}>
