@@ -14,12 +14,45 @@
     margin-top: 2vw;
 }
 
+.icono-contenedor-location{
+    width: 13%;
+    height: auto;
+    left: 2vw;
+    top: -5vh;
+    position: absolute;
+}
+.icono-contenedor-libros{
+    width: 30%;
+    height: auto;
+    left:-2.9vw;
+    top: 9vh;
+    position: absolute;
+}
+.icono-contenedor-lapiz{
+    width: 17%;
+    height: auto;
+    left: 20vw;
+    top: 15vh;
+    position: absolute;
+}
+
+.icono-wrapper{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
 .impacto-contenedor-informacion {
     width: 22vw;
-    height: 30vh;
+    height: 34vh;
     border-radius: 50px;
     border: 3px solid rgb(0, 0, 0);
-    font-family: "Cerebri-Sans-Book", sans-serif;
+    font-family: "Cerebri Sans Bold", sans-serif;
+    position: relative;
+    min-height: 200px;
 }
 
 .info-numero-grande {
@@ -31,6 +64,7 @@
 
 .info-texto {
     color:rgb(0, 0, 0);
+    font-family: "Cerebri-Sans-Book", sans-serif;
     font-weight: 500;
     font-size: 1.6vw; /*23px*/
     line-height: 1.9vw; /*27*/
