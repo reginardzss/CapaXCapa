@@ -4,6 +4,7 @@ import ImagenFondo from '../../ImagenFondo.js'
 import Foto from '../../../media/Images/Inicio-slide-2.jpg';
 import Lapiz from '../../../media/Images/Icons/Lapiz.svg';
 import Libros from '../../../media/Images/Icons/Libros.svg';
+import Location from '../../../media/Images/Icons/Location.svg';
 
 function Impacto(){
     return (
@@ -12,10 +13,14 @@ function Impacto(){
             <div className="separador">
                 <div className="grid-horizontal-tres">
                     <div className="contenedor-info">
+                        
                         <div className="impacto-contenedor-informacion">
+                            <div className="icon-wrapper">
+                                <img src={Location} className='icono-contenedor'/>
+                            </div>
                             <div className="info-numero-grande text-red"> 7 </div>
-                            <div className="info-texto"> Meses desde la </div>
-                            <div className="info-texto">creación del proyecto </div>
+                            <div className="info-texto"> Meses desde la
+                            creación del proyecto </div>
                         </div>
                     </div>
                     <div className="contenedor-info">

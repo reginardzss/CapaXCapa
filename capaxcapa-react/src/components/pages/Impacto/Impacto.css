@@ -14,12 +14,31 @@
     margin-top: 2vw;
 }
 
+.icono-contenedor{
+    width: 12%;
+    height: auto;
+    left: 2vw;
+    top: -5vh;
+    position: absolute;
+}
+
+.icono-wrapper{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
 .impacto-contenedor-informacion {
     width: 22vw;
     height: 30vh;
     border-radius: 50px;
     border: 3px solid rgb(0, 0, 0);
     font-family: "Cerebri-Sans-Book", sans-serif;
+    position: relative;
+    min-height: 200px;
 }
 
 .info-numero-grande {
