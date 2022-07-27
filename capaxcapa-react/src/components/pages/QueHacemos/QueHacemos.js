@@ -9,16 +9,10 @@ function QueHacemos() {
 
             <div>
                 <div className='diagram-div'>
-                    <img  className='imagen-div' src={diagram}/>
+                    <img  className='diagram' src={diagram}/>
                 </div>
             </div>
-            {/*
-                <section className = "flex-containerCajaProceso">
-                <div className = "cajaProceso"> 
-                    <span> Aqui te mostramos nuestro proceso de produccion </span>
-                </div>
-                </section>
-            */}
+            
 
         </div>
     )
