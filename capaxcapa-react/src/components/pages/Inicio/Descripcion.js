@@ -17,6 +17,7 @@ function Descripcion(){
 
     return (
         <div>
+            {/* Texto que esta justo abajo de la galería de fotos */}
             <div className='text-main'>
                 <span> 
                     Cada ciclo escolar, más de 150 mil alumnos de educación básica no continúan con sus estudios por 
@@ -25,8 +26,11 @@ function Descripcion(){
                     falta de motivación
                 </span>
             </div>
+            {/* Línea punteada separadora de la página */}
             <div className="linea"></div>
+            {/* sección entre las líneas punteadas para los textos y la foto */}
             <div className="slideshow-grid">
+                {/* sección donde aparecen los parrafos y los circulos */}
                 <div className="description-grid" style={{ 'marginLeft': '5vw', 'marginBottom' : `4vh`}}>
                     <div className="description-parragraph">
                         <div className='circle'>
@@ -86,6 +90,7 @@ function Descripcion(){
                         </span>
                     </div>
                 </div>
+                {/* Sección donde aparece la imagen con el lápiz */}
                 <div className='imagen-descp' style={{ 'backgroundImage': `url(${Foto})` }}>
                     <div>
                         <img src={Lapiz} className="imagen-lapiz"/>
@@ -96,6 +101,7 @@ function Descripcion(){
                 </div>
             </div>
             <div className="linea"></div>
+            {/* Sección de abajo */}
             <div className="description-bottom-grid">
                 <div>
                     <img src={Libros} className="imagen-libro"/>
