@@ -32,6 +32,7 @@
     line-height: 5.069vw;
     align-items: center;
     float: left;
+    padding-bottom: 0vh;
 }
 
 /* Contenedor para juntar lo que conforma el logo, la imagen y el nombre de CxC */

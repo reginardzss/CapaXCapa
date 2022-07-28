@@ -18,6 +18,7 @@ function Impacto(){
         <div>
             <ImagenFondo imagen={Foto} titulo={"Impacto"} colorTexto={'#E4C76A'}/>
             <div className="separador">
+                {/* ------------  SECCION DE STATS */}
                 <div className="grid-horizontal-tres">
                     <div className="contenedor-info">
                         <div className="impacto-contenedor-informacion">
@@ -50,6 +51,7 @@ function Impacto(){
                 </div>
             </div>
             <div className="separador" style={{ 'margin-bottom': `10vh` }}>
+                {/* ------------  SECCION DE FOTOS */}
                 <div className="contenedor">
                     <div className="contenedor-fotos-chicas">
                         <div className="foto-chica">
