@@ -1,0 +1,115 @@
+/* Contenedor para todos los parrafos que hay en la página*/
+p {
+    font-family: "Cerebri-Sans-Book", sans-serif;
+    font-weight: 50vw;
+    font-size: 2vw;
+    color: #0F223C;
+}
+
+/* Contenedor para colorear parte de los parrafos naranja */
+b {
+    color: #D68B67
+}
+
+/* Contenedor para colorear parte de los parrafos amarillo */
+b.b2 {
+    color: #BF985E
+}
+
+/* Contenedor para colorear parte de los parrafos verde */
+b.b3 {
+    color: #A2C261
+}
+
+/* Contenedor para colocar la estrella poco arriba del header */
+.star {
+    margin-top: -5%;
+}
+
+/* Contenedor para la primera sección */
+.nosotros-contenido1 {
+    box-sizing: border-box;
+
+    width: 40vw;
+
+    text-align: left;
+    
+    margin-top: 8%;
+    margin-left: 5%;
+}
+
+/* Contenedor para la segunda sección */
+.nosotros-contenido2 {
+    box-sizing: border-box;
+
+    width: 40vw;
+
+    text-align: left;
+    
+    margin-top: -12%;
+    margin-left: 55%;
+}
+
+/* Contenedor para la tercera sección */
+.nosotros-contenido3 {
+    box-sizing: border-box;
+
+    width: 40vw;
+
+    text-align: left;
+    
+    margin-left: 5%;
+}
+
+/* Contenedor para la cuarta sección */
+.nosotros-contenido4 {
+    box-sizing: border-box;
+
+    width: 40vw;
+
+    text-align: left;
+    
+    margin-top: -12%;
+    margin-left: 55%;
+    margin-bottom: 7%;
+}
+
+/* Contenedor para el botón de leer más */
+.button1 {
+    border-radius: 10px;
+    border-color: black;
+    background-color: #D68B67;
+    margin-top:-5%;
+}
+
+/* Contenedor para las lineas verticales */
+.linea-vertical {
+    position: absolute;
+    left: 50vw;
+    height: 49vw;
+
+    width: 0.2vw;
+
+    background: repeating-linear-gradient(
+        to top,
+        transparent,
+        transparent 0.7vw,
+        black 0.7vw,
+        black 1.4vw
+    )
+}
+
+/* Contenedor para las lineas horizontales */
+.linea-horizontal {
+    position: absolute;
+    height: 0.2vw;
+
+    background: repeating-linear-gradient(
+        to right,
+        transparent,
+        transparent 0.7vw,
+        black 0.7vw,
+        black 1.4vw
+    )
+}
+
