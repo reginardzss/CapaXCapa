@@ -24,7 +24,7 @@ function MenuFooter(){
             </div>
             <div className='div-menu' style={{ backgroundColor: '#D68B67', borderTopStyle: 'solid', borderRightStyle: 'solid', borderBottomStyle: 'solid', borderWidth: '3px', borderColor: '#0F223C' }}>
                 <div className="menu-items">
-                    <img className="menu-icon" src={QuienesSomosIcon}/> <br/>
+                    <img className="menu-icon" src={QuienesSomosIcon}/> <br/> <br/>
                     <h1> ¿Quiénes <br /> Somos? </h1> <br/>
                     <Link to={"/quienes-somos"}> <Button color={'#A2C261'}> Leer más → </Button> </Link>
                 </div>
@@ -38,7 +38,7 @@ function MenuFooter(){
             </div>
             <div className="div-menu" style={{ backgroundColor: '#BF985E', borderTopStyle: 'solid', borderBottomStyle: 'solid', borderWidth: '3px', borderColor: '#0F223C' }}>
                 <div className="menu-items">
-                    <img className="menu-icon" src={ImpactoIcon}/> <br/>
+                    <img className="menu-icon" src={ImpactoIcon}/> <br/> <br/>
                     <h1> Impacto <br /> Generado </h1> <br/>
                     <Link to={"/impacto"}> <Button color={'#A2C261'}> Leer más → </Button> </Link>
                 </div>
@@ -51,7 +51,7 @@ function MenuFooter(){
             </div>
 
             <div className="menu-mensaje">
-                <img src={CaritaFeliz} style={{position: 'relative', left: '70vw', bottom: '7vh', height: '5vw', width: '5vw'}} />
+                <img src={CaritaFeliz} style={{position: 'relative', left: '70vw', bottom: '3.5vw', height: '5vw', width: '5vw'}} />
                 <p className="mensaje"> En caso de que le haya interesado el proyecto y considere que tiene una idea útil para la mejora de la comprensión de su lección, envíenos un correo para agendar una reunión y conocer su propuesta. </p>
             </div>
         </div>
