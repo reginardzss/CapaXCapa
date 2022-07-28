@@ -13,13 +13,13 @@ const Nosotros = () => {
                 
                 <div>
                     {/* Código para dibujar todas las lineas horizontales y verticales */}
-                    {/* <div style={{position:'absolute'}}>
+                    <div style={{position:'absolute'}}>
                         <div className="linea-vertical" style={{top: '1.5vw'}}/>
                         <div className="linea-horizontal" style={{left: '45.5vw', top: '1.5vw', width: '4vw'}}/>
                         <div className="linea-horizontal" style={{left: '50vw', top: '19.5vw', width: '4vw'}}/>
                         <div className="linea-horizontal" style={{left: '45.5vw', top: '37.5vw', width: '4vw'}}/>
                         <div className="linea-horizontal" style={{left: '50vw', top: '49.6vw', width: '4vw'}}/>
-                    </div> */}
+                    </div>
 
                     {/* Código para desplegar toda la información de la primera parte de la linea del tiempo */}
                     <div className="nosotros-contenido1">
@@ -28,11 +28,11 @@ const Nosotros = () => {
                         </h1>
                         <p>
                             <BsFillCircleFill color='#D68B67'/> Comenzó como un proyecto de servicio social y 
-                            <b>se convirtió en nuestra pasión</b> por promover en México una mentalidad de <b>compartir valor</b>
+                            <b> se convirtió en nuestra pasión</b> por promover en México una mentalidad de <b>compartir valor</b>
                         </p>
                         <p>
                             <BsFillCircleFill color='#D68B67'/> Somos un grupo de jóvenes emprendedores y amigos que buscan 
-                            <b>crear un impacto positivo</b> a largo plazo en la <b>educación de México</b>
+                            <b> crear un impacto positivo</b> a largo plazo en la <b>educación de México</b>
                         </p>
                     </div>
 

@@ -84,6 +84,7 @@ b.b3 {
 
 /* Contenedor para las lineas verticales */
 .linea-vertical {
+    position: absolute;
     left: 50vw;
     height: 49vw;
 
@@ -100,6 +101,7 @@ b.b3 {
 
 /* Contenedor para las lineas horizontales */
 .linea-horizontal {
+    position: absolute;
     height: 0.2vw;
 
     background: repeating-linear-gradient(
